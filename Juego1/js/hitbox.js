@@ -12,7 +12,7 @@ function Hitbox(x, y, ancho, alto) {
     document.getElementById(this.id).style.top = this.y + 'px';
     document.getElementById(this.id).style.width = this.ancho + 'px';
     document.getElementById(this.id).style.height = this.alto + 'px';
-    document.getElementById(this.id).style.backgroundcolor = randomRGB();
+    document.getElementById(this.id).style.backgroundColor = randomRGB();
 }
 
 function randomRGB() {
