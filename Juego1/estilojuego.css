@@ -17,20 +17,15 @@ menu img {
     margin: 0%;
 }
 
-#Botones a {
-    text-decoration: none;
-    size: 100%;
+#start {
+    position: absolute;
+    z-index: 1;
 }
 
-#Botones p {
-    border: #0057AD solid 1px;
-    background-color: black;
-    color: white;
-}
-
-#Botones {
-    margin-right: 80%;
-    padding-left: 1%;
+#mostrar {
+    margin-top: 5%;
+    position: absolute;
+    z-index: 1;
 }
 
 footer {
