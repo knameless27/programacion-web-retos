@@ -19,7 +19,7 @@ menu img {
 
 #Botones a {
     text-decoration: none;
-    size: 100%;
+    /* size: 100%; */
 }
 
 #Botones p {
@@ -29,8 +29,30 @@ menu img {
 }
 
 #Botones {
-    margin-right: 80%;
-    padding-left: 1%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#Botones img {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+}
+
+#Botones,
+#Botones p {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    border-radius: 15px;
+}
+
+#Botones div:nth-child(7) {
+    grid-column: 2;
+    grid-row: 3 / 3;
 }
 
 footer {
