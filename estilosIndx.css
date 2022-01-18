@@ -26,6 +26,7 @@ menu img {
     border: #0057AD solid 1px;
     background-color: black;
     color: white;
+    position: relative;
 }
 
 #Botones {
@@ -37,7 +38,6 @@ menu img {
 #Botones img {
     width: 70px;
     height: 70px;
-    justify-content: center;
 }
 
 #Botones,
